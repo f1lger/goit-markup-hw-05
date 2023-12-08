@@ -463,11 +463,11 @@ h3 {
 }
 .subscribe-form {
   display: flex;
+  gap: 24px;
+  flex-direction: row;
 }
 .subscribe-form-label {
   display: flex;
-  gap: 24px;
-  flex-direction: row;
 }
 .subscribe-form-input {
   width: 264px;
