@@ -317,10 +317,10 @@
             <li class="app-cont">
               <div class="image-cont">
                 <img
-                src="./images/banking-app.jpg"
-                alt="Banking App"
-                width="360"
-                height="300"
+                  src="./images/banking-app.jpg"
+                  alt="Banking App"
+                  width="360"
+                  height="300"
                 />
                 <p class="image-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -478,12 +478,25 @@
               </a>
             </li>
           </ul>
-          <form action="" class="subscribe-form">
-            <label for="" class="subscribe-form-label">
-              Subscribe
-              <input type="email" name="email" placeholder="E-mail">
-            </label>
-          </form>
+          <div class="form-cont">
+            <p class="subscribe-text">Subscribe</p>
+            <form action="" class="subscribe-form">
+              <label for="" class="subscribe-form-label">
+                <input
+                  class="subscribe-form-input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                />
+                <button type="submit" class="subscribe-form-button">
+                  Subscribe
+                  <svg class="subscribe-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-frame"></use>
+                  </svg>
+                </button>
+              </label>
+            </form>
+          </div>
         </div>
       </div>
     </footer>

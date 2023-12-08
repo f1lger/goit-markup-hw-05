@@ -33,6 +33,7 @@ h3 {
 }
 .header-container {
   display: flex;
+  justify-content: space-between;
 }
 .container {
   width: 1158px;
@@ -451,11 +452,53 @@ h3 {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  
+}
+.subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
 }
 .subscribe-form {
-  color: white;
+  display: flex;
 }
 .subscribe-form-label {
   display: flex;
-  flex-direction: column;
+  gap: 24px;
+  flex-direction: row;
+}
+.subscribe-form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff
+}
+.subscribe-form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.subscribe-svg {
+  margin-left: 16px;
 }
