@@ -455,21 +455,20 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  
 }
-.subscribe-text {
+.form-text {
   margin-bottom: 16px;
   font-weight: 500;
 }
-.subscribe-form {
+.form {
   display: flex;
   gap: 24px;
   flex-direction: row;
 }
-.subscribe-form-label {
+.form-label {
   display: flex;
 }
-.subscribe-form-input {
+.form-label-input {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -480,9 +479,9 @@ h3 {
   padding-left: 16px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff
+  color: #ffffff;
 }
-.subscribe-form-button {
+.form-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -499,6 +498,6 @@ h3 {
   border: none;
   border-radius: 4px;
 }
-.subscribe-svg {
+.form-button-svg {
   margin-left: 16px;
 }
