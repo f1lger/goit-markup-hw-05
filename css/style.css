@@ -385,9 +385,9 @@ h3 {
 .footer-cont {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 .aside {
-  margin-right: 120px;
   max-width: 264px;
 }
 .footer-social-cont {
