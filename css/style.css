@@ -513,7 +513,7 @@ h3 {
 .form-button-svg {
   margin-left: 16px;
 }
-.modal -cont {
+.modal-cont {
   position: fixed;
   top: 0;
   left: 0;
@@ -543,7 +543,7 @@ h3 {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal -button {
+.modal-button {
   /* Positioning */
   position: absolute;
   top: 24px;
