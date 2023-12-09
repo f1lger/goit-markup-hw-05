@@ -572,7 +572,7 @@ h3 {
   background-color: #404bbf;
   border: none;
 }
-.modal-button:hover,
+.modal-button:hover .modal-button-svg,
 .modal-button:focus .modal-button-svg {
   fill: #ffffff;
 }
@@ -586,6 +586,7 @@ h3 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+  line-height: 1.5;
 }
 .first-form-cont {
   margin-bottom: 8px;
