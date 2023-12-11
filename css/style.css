@@ -607,7 +607,7 @@ h3 {
 }
 .name-cont {
 }
-.input {
+.modal-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -620,7 +620,7 @@ h3 {
 .input:focus {
   border-color: #4d6ae5;
 }
-.name-input {
+.modal-input {
 }
 .modal-svg {
   position: absolute;
@@ -636,13 +636,13 @@ h3 {
 }
 .phome-cont {
 }
-.phone-input {
+.modal-input {
 }
 .third-form-cont {
 }
 .enail-cont {
 }
-.email-input {
+.modal-input {
 }
 .fourth-form-cont {
 }
