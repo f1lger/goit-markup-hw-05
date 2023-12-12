@@ -617,9 +617,8 @@ h3 {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus + .modal-input:active {
+.input-cont > input:focus + .modal-input:active {
   border-color: #4d6ae5;
-  fill: #4f6ae5;
 }
 .fifth-form-cont > input:checked + .checkbox-label > .checkbox-label-span {
   background-color: #404bbf;
@@ -633,9 +632,9 @@ h3 {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .modal-input:focus + .modal-input:active {
+.input-cont > input:focus > svg + .modal-input:active {
   fill: #4f6ae5;
-} */
+}
 
 .fourth-form-cont {
   margin-bottom: 16px;
@@ -655,7 +654,7 @@ h3 {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-textarea:focus + .fifth-form-cont > input:active {
+.fourth-form-cont > textarea:focus + .fifth-form-cont > input:active {
   border-color: #4d6ae5;
 }
 .fifth-form-cont {
