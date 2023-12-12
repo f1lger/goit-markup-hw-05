@@ -616,8 +616,8 @@ h3 {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus + .modal-input:active{
-  border-color: #4d6ae5;
+.modal-input:focus {
+  border: #4d5ae5;
 }
 .modal-svg {
   position: absolute;
@@ -626,8 +626,8 @@ h3 {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus + .modal-svg { 
-  fill: #4f6ae5;
+.modal-input:focus + .modal-svg {
+  fill: #4d5ae5;
 }
 .fourth-form-cont {
   margin-bottom: 16px;
@@ -648,7 +648,7 @@ h3 {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea:focus {
-  border-color: #4d6ae5;
+  border: #4d6ae5;
 }
 .fifth-form-cont {
   margin-bottom: 24px;
