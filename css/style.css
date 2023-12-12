@@ -566,7 +566,7 @@ h3 {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  fill: #000000;
+  fill: black;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -606,7 +606,9 @@ h3 {
 .input-cont {
   position: relative;
 }
-
+.input-cont > .modal-input:focus + .input-cont > .modal-input:active {
+  border-color: #4d6ae5;
+}
 .modal-input {
   width: 100%;
   height: 40px;
@@ -617,14 +619,6 @@ h3 {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-cont > input:focus + .modal-input:active {
-  border-color: #4d6ae5;
-}
-.fifth-form-cont > input:checked + .checkbox-label > .checkbox-label-span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
 .modal-svg {
   position: absolute;
   left: 16px;
@@ -632,10 +626,9 @@ h3 {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-cont > input:focus > svg + .modal-input:active {
+.input-cont > .modal-input:focus > .modal-svg + .input-cont > .modal-input:active > .modal-svg { 
   fill: #4f6ae5;
 }
-
 .fourth-form-cont {
   margin-bottom: 16px;
 }
@@ -654,11 +647,16 @@ h3 {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.fourth-form-cont > textarea:focus + .fifth-form-cont > input:active {
+.fourth-form-cont > .modal-textarea:focus + .fifth-form-cont > .modal-input:active {
   border-color: #4d6ae5;
 }
 .fifth-form-cont {
   margin-bottom: 24px;
+}
+.fifth-form-cont > input:checked + .checkbox-label > .checkbox-label-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .visually-hidden {
   position: absolute;
