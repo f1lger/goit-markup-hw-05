@@ -591,7 +591,7 @@ h3 {
   margin-bottom: 16px;
   line-height: 1.5;
 }
-.input-block-cont {
+.form-cont {
   margin-bottom: 8px;
 }
 .modal-label {
@@ -602,11 +602,10 @@ h3 {
   display: block;
   margin-bottom: 4px;
 }
-.form {
+.input-cont {
   position: relative;
 }
-.name-cont {
-}
+
 .modal-input {
   width: 100%;
   height: 40px;
@@ -635,12 +634,9 @@ h3 {
 .modal-input:focus .modal-svg {
   fill: #4f6ae5;
 }
-.phome-cont {
-}
-.enail-cont {
-}
 
 .fourth-form-cont {
+  margin-bottom: 16px;
 }
 .modal-textarea {
   width: 100%;
@@ -657,11 +653,11 @@ h3 {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-textarea:focus {
+.modal-textarea:focus + .fifth-form-cont > input:active {
   border-color: #4d6ae5;
 }
 .fifth-form-cont {
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 }
 .visually-hidden {
   position: absolute;
@@ -698,6 +694,7 @@ h3 {
 }
 .modal-link {
   background-color: #404bbf;
+  color: #4d5ae5;
 }
 .modal-button-send {
   display: block;
@@ -707,10 +704,9 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-
 }
