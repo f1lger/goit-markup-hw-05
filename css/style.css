@@ -692,8 +692,10 @@ h3 {
 .checkbox-label-span-svg {
 }
 .modal-link {
+  display: inline-flex;
+  padding: 3px;
   background-color: #404bbf;
-  color: #4d5ae5;
+  color: #ffffff;
 }
 .modal-button-send {
   display: block;
